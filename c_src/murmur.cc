@@ -28,7 +28,7 @@ uint32_t hash_murmur2(const unsigned char *key, size_t length)
      */
 
     const unsigned int m = 0x5bd1e995;
-    const uint32_t seed = (0xdeadbeef * (uint32_t)length);
+    const uint32_t seed = 0x9747b28c;
     const int r = 24;
 
     /* Initialize the hash to a 'random' value */
